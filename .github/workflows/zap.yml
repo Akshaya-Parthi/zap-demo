@@ -13,4 +13,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
-          target: 'qa-adminportal.ezee.ai'
+          target: 'https://qa-adminportal.ezee.ai'
