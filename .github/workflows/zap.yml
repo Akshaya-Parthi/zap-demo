@@ -14,3 +14,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
           target: 'https://qa-adminportal.ezee.ai'
+          
+      - name: Files
+        run: |
+          pwd
+          ls -lart
