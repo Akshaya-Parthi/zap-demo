@@ -3,7 +3,7 @@ on: [push]
 jobs:
   zap_scan:
     runs-on: ubuntu-latest
-    name: Scan the webapplication
+    name: Scan the web application
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -34,7 +34,7 @@ jobs:
           # Required mail subject:
           subject: Github Actions job result
           # Required recipients' addresses:
-          to: akshaya.p@cloudifyops.com
+          to: akshayaecs9800@gmail.com
           # Required sender full name (address can be skipped):
           from: Akshaya # <user@example.com>
           # Optional whether this connection use TLS (default is true if server_port is 465)
