@@ -40,7 +40,7 @@ jobs:
           # Optional whether this connection use TLS (default is true if server_port is 465)
           secure: true
           # Optional plain body:
-          body: Build job completed successfully!
+          body: Build zap job completed successfully!
           # Optional HTML body read from file:
           # html_body: file://README.html
           # Optional carbon copy recipients:
